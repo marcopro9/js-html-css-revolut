@@ -1,0 +1,57 @@
+/* reset */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* fine reset */
+
+/* inizio stile nav */
+.ms_menu{
+  margin-top: 20px;
+}
+.ms_logo{
+  height: 25px;
+  vertical-align: baseline;
+}
+.ms_dropdown_link{
+  position: relative;
+}
+.ms_dropmenu{
+  position: absolute;
+  box-shadow:0px 0px 8px #B4C2C1;
+  padding: 10px;
+  width: 150px;
+}
+.ms_dropmenu li a{
+  text-decoration: none;
+}
+.ms_dropmenu li{
+  list-style: none;
+}
+.ms_lang_links{
+  width: 70px;
+}
+.ms_btn {
+  background-color: #eb008d;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  line-height: 15px;
+}
+.ms_btn:hover{
+  background-color: #bb0572;
+}
+a{
+  position: relative;
+}
+small{
+  position: absolute;
+  top: 0;
+  color:#eb008d;
+}
+.ms_hidden{
+  display: none;
+}
